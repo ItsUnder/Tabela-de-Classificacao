@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 400px;
+  background-image: url("https://images.hdqwalls.com/download/new-york-buildings-city-night-minimalism-4e-3840x2400.jpg");
+  background-color: #111;
+  background-size: 150%;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(1px);
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.table100 {
+  background-color: #fff;
+}
+
+table {
+  width: 100%;
+  background-color:rgba(149, 129, 156, 0.7);
+  border-radius: 25px
+}
+
+th, td {
+  font-weight: 100px;
+  padding-right: 10px;
+  color:white;
+  font-family: "Roboto", sans-serif;
+}
+.Resultados button:hover {
+  color: cyan; /*rgb(255, 255, 255); */
+  border-color: #191B1B;
+  background: linear-gradient(#000000, #3d3d3d);
+  animation: test 0.5s linear;
+}
+button:hover {
+  color: cyan; /*rgb(255, 255, 255); */
+  border-color: #191B1B;
+  background: linear-gradient(#000000, #3d3d3d);
+  animation: test 0.5s linear;
+} @keyframes test {
+  0%, 100% {
+    transform: translate(0, 0px);
+  }
+  
+  50% {
+    transform: translate(0px, -1px);
+  }
+  
+  80% {
+    transform: translate(0px, -1px);
+  }
+}
+
+.Resultado {
+ color: white;
+ background-color: #0F1010;
+ border: solid transparent;
+ border-radius: 16px;
+ background-clip: padding-box;
+ opacity: 0.90;
+}
+
+.Trofeu img {
+ max-height: 100px;
+ max-width: 100px;
+ animation: nudge 3s linear infinite;
+}
+
+.Shrug img {
+ max-height: 100px;
+ max-width: 100px;
+ color: cyan;
+ animation: nudge 2s linear infinite;
+} @keyframes nudge {
+  0%, 100% {
+    transform: translate(0, 10px);
+  }
+  
+  50% {
+    transform: translate(0px, 10px);
+  }
+  
+  80% {
+    transform: translate(0px, 0px);
+  }
+}button {
+  appearance: button;
+  background-color: #191B1B;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 13px 16px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 100%;
+  opacity: 1;
+}
+
+button:after {
+  background-clip: padding-box;
+  background-color: #0F1010;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+button:main,
+button:focus {
+  user-select: auto;
+}
+
+button:hover:not(:disabled) {
+  filter: brightness(1.1);
+}
+
+button:disabled {
+  cursor: auto;
+} 
+h1 {
+ color: white;
+}
+.creditos {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  color: white;
+  position: static;
+}
+.creditos span {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-right: 20px;
+}
+.creditos a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  }
+.creditos a:hover {
+  color: cyan;
+}
+.creditos img {
+  position: relative;
+  top: -10px;
+  width: 126px;
+  height: auto;
+} 
+.creditos {
+  margin: 40px 4%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: static;
+  background-color: #0F1010; 
+  border: solid transparent;
+  border-radius: 16px;
+  background-clip: padding-box;
+  opacity: 0.90;
+  padding: 20px
+}
+.creditos span {
+  margin-right: none;
+}
+.creditos img {
+  margin-top: 20px;
+  position: none;
+  top: none;
+}
